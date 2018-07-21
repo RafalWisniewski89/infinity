@@ -1,4 +1,63 @@
-h1 {
-    color: red;
-    text-align: center;
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Utility*/
+.inner {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/*Top section*/
+.top-section {
+    height: 650px;
+    width: 1366px;
+    background: url(../img/main_bg.jpg);
+    margin: 0 auto;
+}
+
+.logo {
+    width: 98px;
+    height: 94px;
+    float: left;
+    border-top: 9px solid #62c017;
+}
+
+.logo img {
+    margin: 22px auto 0;
+    display: block;
+}
+
+.top-section nav {
+    float: left;
+    margin: 21px 0 0 86px;
+}
+
+.top-section nav ul {
+    overflow: hidden;
+}
+
+.top-section nav li {
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+.top-section nav li:last-child {
+    border-right: none;
+}
+
+.top-section nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Mada', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0 40px;
+    line-height: 54px;
+    display: block;
 }
