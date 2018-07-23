@@ -21,6 +21,7 @@ html {
     background: url(../img/main_bg.jpg);
     margin: 0 auto;
     position: relative;
+    margin-bottom: 74px;
 }
 
 .logo {
@@ -83,6 +84,45 @@ html {
     display: block;
 }
 
+/*Mission*/
+.mission {
+    margin-bottom: 151px;
+}
+
+.mission h2 {
+    font-size: 50px;
+    font-family: 'Homenaje', sans-serif;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.mission p {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 300;
+    width: 795px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mission p:before {
+    content: '„';
+    font-weight: 900;
+    font-size: 61.27px;
+    position: absolute;
+    left: -51px;
+    top: -27px;
+}
+
+/*Clients*/
+.clients {
+    background: url(../img/clients_bg.jpg) left top no-repeat;
+    height: 724px;
+    width: 1366px;
+    margin: 0 auto;
+}
+
 /*Cookies*/
 .cookies {
     width: 100%;
@@ -92,6 +132,7 @@ html {
     left: 0;
     font-weight: 300;
     font-size: 14px;
+    display: none;
 }
 
 .cookies .inner {
@@ -100,7 +141,7 @@ html {
 
 .cookies p {
     color: #fff;
-    background: url(../img/cookies_img.png) left center no-repeat;
+    background: url(../img/cookies_img.png) center center no-repeat;
     line-height: 19px;
     padding: 23px 250px 23px 85px;
 }
