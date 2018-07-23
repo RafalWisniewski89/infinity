@@ -29,11 +29,21 @@ html {
     height: 94px;
     float: left;
     border-top: 9px solid #62c017;
+    transition: border-top-color .1s linear; 
+}
+
+.logo:hover {
+    border-top-color: #fff;
+}
+
+.logo:hover img {
+    transform: scale(1.2);
 }
 
 .logo img {
     margin: 22px auto 0;
     display: block;
+    transition: transform .5s cubic-bezier(.1,1.83,.75,2.53);
 }
 
 .top-section nav {
@@ -132,7 +142,6 @@ html {
     left: 0;
     font-weight: 300;
     font-size: 14px;
-    display: none;
 }
 
 .cookies .inner {
@@ -141,7 +150,7 @@ html {
 
 .cookies p {
     color: #fff;
-    background: url(../img/cookies_img.png) center center no-repeat;
+    background: url(../img/cookies_img.png) left center no-repeat;
     line-height: 19px;
     padding: 23px 250px 23px 85px;
 }
