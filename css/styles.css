@@ -29,7 +29,7 @@ html {
     height: 94px;
     float: left;
     border-top: 9px solid #62c017;
-    transition: border-top-color .1s linear; 
+    transition: border-top-color .1s linear;
 }
 
 .logo:hover {
@@ -79,7 +79,7 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
     font-family: 'Homenaje', sans-serif;
     color: #fff;
     font-size: 56px;
@@ -133,9 +133,22 @@ html {
     margin: 0 auto;
 }
 
+.clients h2 {
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Homenaje', sans-serif;
+  line-height: 60px;
+}
+
+.clients p {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 300;
+}
+
 /*Cookies*/
 .cookies {
-    width: 100%;
+    width: 100%; 
     background-color: rgba(34, 34, 34, .83);
     position: fixed;
     bottom: 0;
