@@ -131,6 +131,16 @@ html {
     height: 724px;
     width: 1366px;
     margin: 0 auto;
+    padding-top: 205px;
+}
+
+.clients img {
+    float: left;
+}
+
+.clients h2 p {
+    float: right;
+    padding-right: 20px;
 }
 
 .clients h2 {
