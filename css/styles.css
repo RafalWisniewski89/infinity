@@ -132,15 +132,12 @@ html {
     width: 1366px;
     margin: 0 auto;
     padding-top: 205px;
+    display: flex;
 }
 
 .clients img {
     float: left;
-}
-
-.clients h2 p {
-    float: right;
-    padding-right: 20px;
+    margin: 0px 43px 0px -100px;
 }
 
 .clients h2 {
@@ -148,12 +145,67 @@ html {
   font-size: 50px;
   font-family: 'Homenaje', sans-serif;
   line-height: 60px;
+  text-align: center;
+
 }
 
 .clients p {
   font-size: 30px;
   line-height: 42px;
   font-weight: 300;
+  padding: 62px 20px 0px 0px;
+}
+
+.clients p:before {
+    content: '„';
+    font-weight: 900;
+    font-size: 61.27px;
+    color: #2d2d2d;
+    position: absolute;
+    margin: -32px -47px;
+}
+
+#signature {
+    font-size: 22px;
+    line-height: 27px;
+    padding-top: 15px;
+}
+
+#signature:before {
+    content: none;
+}
+
+#signature a {
+    color: #fff;
+}
+
+.clients button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 37px;
+    line-height: 18px;
+    padding: 1px 7px;
+    text-transform: lowercase;
+}
+
+/*Products*/
+
+.products h2 {
+    text-align: center;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 50px;
+    margin-top: 90px; 
+}
+
+.products p {
+    font-family: 'Mada', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 28px;
 }
 
 /*Cookies*/
@@ -165,6 +217,7 @@ html {
     left: 0;
     font-weight: 300;
     font-size: 14px;
+    visibility: hidden;
 }
 
 .cookies .inner {
