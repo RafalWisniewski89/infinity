@@ -210,6 +210,7 @@ html {
 .products-sprite {
     width: 780px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .products-sprite div {
@@ -281,6 +282,77 @@ html {
 
 .icon-12 span {
     background: url(../img/products_sprite.png) -604px -464px;
+}
+
+/*Adress*/
+.adress {
+    background: url(../img/adress_bg.jpg) center center no-repeat;
+    height: 491px;
+    position: relative;
+}
+
+.address-info {
+    position: absolute;
+    top: 50%;
+    font-size: 22px;
+    transform: translateY(-50%);
+}
+
+.address-info h2 {
+    line-height: 29px;
+    padding-bottom: 26px;
+    position: relative;
+}
+
+.address-info h2:before {
+    position: absolute;
+    content: url(../img/adress_compass.png);
+    margin-left: -52px;
+    
+}
+
+.address-info address,
+.address-info p {
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.address-info address {
+    max-width: 150px;
+    padding-bottom: 24px;
+}
+
+.address-info p {
+    max-width: 250px;
+}
+
+/*Contact-Form*/
+.contact-form h2 {
+   float: left;
+   font-size: 50px;
+   font-family: 'Homenaje', sans-serif;
+}
+
+.contact-form button {
+    float: right;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Homenaje', sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #62c017;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 53px 8px 14px;
+    position: relative;
+    margin-top: 4px; 
+}
+
+.contact-form button:after {
+    content: url(../img/contact_button_arrow.png);
+    transform: rotate(180deg);
+    right: 19px;
+    position: absolute;
 }
 
 /*Cookies*/
