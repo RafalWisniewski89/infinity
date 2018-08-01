@@ -469,7 +469,26 @@ html {
     float: none;
     display: block;
     margin: 0 auto;
+    padding: 8px 78px 8px 14px;
 }
+
+.contact-form button[type="submit"]:after {
+    transform: rotate(90deg);
+}
+
+/*Main footer*/
+.main-footer {
+    background-color: #242424;
+    color: #8f8f8f;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 25px 0;
+}
+
+.main-footer p {
+    line-height: 19px;
+}
+
 
 /*Cookies*/
 .cookies {
